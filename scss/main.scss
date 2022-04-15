@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	position: relative;
+	padding: 5%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 2%;
+	}
+}
+
+@import './header';
+@import './gallery';
